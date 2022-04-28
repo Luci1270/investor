@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,700;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+}
+
+.left {
+    padding: 20px;
+    width: 60vw;
+    background-color: white;
+}
+
+.right {
+    width: 40vw;
+    background-color: #F6F7FA;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+
+.left>h3 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+
+
+.footer-left-col {
+    margin-top: 60px;
+}
+
+
+.question-btn>div {
+    width: 100%;
+    padding: 20px 10px;
+    border: 1px solid rgb(217, 217, 217);
+    border-radius: 12px;
+    padding-left: 50px;
+    font-weight: 600;
+}
+
+.sidebar-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-content>h3 {
+    color: #1D99F2;
+    font-weight: 600;
+}
+
+.sidebar-content>h4 {
+    color: #1D99F2;
+    font-weight: 600;
+}
+
+.sidebar-content>hr {
+    width: 70%;
+}
+
+.sidebar-content>p {
+    text-align: center;
+    font-weight: 500;
+}
+
+.sidebar-content>h2 {
+    color: #1D99F2;
+    font-weight: bolder;
+}
+
+
+.buttonSkip>button {
+    border: 0;
+    background-color: transparent;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1D99F2;
+}
+
+.button > button{
+    padding :10px 20px;
+    width:100px;
+    border-radius: 6px;
+}
+
+.button > button:nth-child(1) {
+   
+    border: 1px solid #1D99F2;
+    color: #1D99F2;
+    font-weight: 600;
+
+
+}
+.button > button:nth-child(2) {
+   
+    background-color: #1D99F2;
+    color: #fff;
+    font-weight: 600;
+
+
+}
+
+#footer{
+    padding:0 20px;
+   
+}
+
+
+.footer-row {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 1px solid rgb(210, 210, 210);
+    padding-top: 30px;
+}
+
+/*for mobile phone*/
+
+@media (max-width: 600px){
+    div.right{
+        display: none;
+    }
+
+    .left{
+        width: 100%;
+    }
+}
